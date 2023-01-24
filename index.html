@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 	<head>
-		<meta charset="utf-8">
+		<meta charset="UTF-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<script src="https://kit.fontawesome.com/32f181d7c4.js" crossorigin="anonymous"></script>
 		<meta name="description" content="Hire Professional Front End Developer & Graphic Designer. Building animations and interactive experiences, hi-end solutions, website maintenance & security.">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -11,35 +13,82 @@
 		<title>Shashwat | Java Backend Developer</title>
 	</head>
 	<body>
+		<div class="navbar" id="navbar">
+			<section class="nav-container">
+				<div class="my-logo">
+					<a href="#C1"><img class="logo" src="images\LOGO.png" alt="LOGO"/></a>
+				</div>
+				<nav>
+					<a href="#C1">HOME</a>
+					<a href="#C2">ABOUT</a>
+					<a href="#C3">SKILLS</a>
+					<a href="#C4">TECHSTACK</a>
+					<a href="#C5">PROJECTS</a>
+					<a href="#C6">CONTACT</a>
+					<a onclick="resume()" href = "https://drive.google.com/file/d/1bmcxH417Z5lpkNzZAHkAFuqq04cJK_kz/view?usp=sharing" download target="_blank">RESUME</a>
+				</nav>
+			</section>
+		</div>
 		<div class="home-page" id="C1">
 			<section class="home-page" id="particles-js">
 				<div class="home-page-container">
 					<h1>Hello, I'm <span>Shashwat Srivastava</span>.<br/>
 					I'm Java Backend Developer.</h1>
-					<button class="btn" type="button" name="button">View my work</button>
+
+					<button id="resume" class = "btn" type="button" name="button"><a onclick="resume()" href = "https://drive.google.com/file/d/1bmcxH417Z5lpkNzZAHkAFuqq04cJK_kz/view?usp=sharing"  download target="_blank">Resume</a></button>
+            		<div id="icons">
+                		<i id="linkedin" class="fa-brands fa-linkedin-in icons fa-2x"></i>
+                		<i id="github" class="fa-brands fa-github icons fa-2x"></i>
+            		</div>
 				</div>
 			</section>
 		</div>
-		<div class="navbar" id="navbar">
-			<section class="nav-container">
-				<div class="my-logo">
-					<a href="#C2"><img class="logo" src="images\LOGO.png" alt="LOGO"/></a>
-				</div>
-				<nav>
-					<a href="#C1">HOME</a>
-					<a href="#C2">ABOUT</a>
-					<a href="#C3">PORTFOLIO</a>
-					<a href="#C4">BLOG</a>
-					<a href="#C5">CONTACT</a>
-				</nav>
-			</section>
-		</div>
+
 		<section class="About">
 			<div class="navigate-about" id="C2">
 
 			</div>
 			<div data-aos="fade-right" class="heading">
 				<h1>ABOUT</h1>
+			</div>
+			<div data-aos="fade-right" class="underline">
+
+			</div>
+			<div class="row">
+				<div data-aos="fade-right" class="span-1-of-2 about-me">
+					<div class="feature-detail">
+						<h2>Who's this guy?</h2>
+						<p>I'm Shashwat Srivastava, a Java Backend Developer from <span><a href="https://en.wikipedia.org/wiki/Varanasi" target="_blank">Varanasi</a></span>. <br>
+						I am an aspiring Backend Developer with specialization in Java and Spring Framework. Looking forward to applying and Enhancing my skills and knowledge as a developer.<br>
+						<!-- <div id="icons">
+                			<i id="linkedin" class="fa-brands fa-linkedin-in icons fa-2x"></i>
+                			<i id="github" class="fa-brands fa-github icons fa-2x"></i>
+            			</div> -->
+						<div id="contact-icons">
+							<i class="fa-solid fa-phone"></i><p>Contact on : 8076090538	</p>
+						</div>
+						<div id="contact-icons">
+							<i class="fa-solid fa-envelope"></i><p>Drop a mail on : sswtsrv@gmail.com</p>
+						</div>
+
+						<button id="resume" class = "btn2" type="button" name="button"><a onclick="resume()" href = "https://drive.google.com/file/d/1bmcxH417Z5lpkNzZAHkAFuqq04cJK_kz/view?usp=sharing"  download target="_blank">Resume</a></button>
+						<br>
+						<button id="resume" class = "btn2" type="button" name="button"><a href = "#C6">Let's make something special</a></button>					
+					</div>
+				</div>
+
+				<div data-aos="fade-left" class="span-1-of-2">
+					<img class="picture" style="border-radius: 50%;" src="images\profilepic.png" alt="fast">
+				</div>
+			</div>
+		</section>
+
+		<section class="Skills">
+			<div class="navigate-skill" id="C3">
+
+			</div>
+			<div data-aos="fade-right" class="heading">
+				<h1>SKILLS</h1>
 			</div>
 			<div data-aos="fade-right" class="underline">
 
@@ -86,15 +135,9 @@
 						</div>
 					</div>
 				<div data-aos="fade-right" class="span-1-of-2 about-me">
-					<img class="picture hexagon" src="images\Square Fit_20224521209292.jpg" alt="fast">
-					<div class="feature-detail">
-						<h2>Who's this guy?</h2>
-						<p>I'm a Java Backend Developer from <span><a href="https://en.wikipedia.org/wiki/Varanasi" target="_blank">Varanasi</a></span> in U.P., India.<br />
-An aspiring Backend Developer with specialization in Java and Spring Framework. Looking forward to applying and Enhancing my skills and knowledge as a developer.<br>
-<span><a href="#">Let's make something special</a></span>.</p>
-					</div>
+					
 				</div>
-				<div data-aos="fade-left" class="span-1-of-2">
+				<!-- <div data-aos="fade-left" class="span-1-of-2">
 					<div class="container">
 						<div class="skills">
 							<div class="Name">HTML5</div>
@@ -185,31 +228,13 @@ An aspiring Backend Developer with specialization in Java and Spring Framework. 
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</section>
-		<section class="portfolio">
-			<div class="navigate-about" id="C3">
 
-			</div>
-			<div data-aos="fade-left" class="portfolio-heading">
-				<h1>PROJECTS</h1>
-			</div>
-			<div data-aos="fade-left" class="underline">
+		
+			
 
-			</div>
-			<div class="portfolio-container">
-				<div>
-
-				</div>
-				<div>
-
-				</div>
-				<div>
-
-				</div>
-			</div>
-		</section>
 		<script src="index.js" charset="utf-8"></script>
 		<script src="particle\particles.js" charset="utf-8"></script>
 		<script src="particle\particles.min.js" charset="utf-8"></script>
@@ -218,6 +243,21 @@ An aspiring Backend Developer with specialization in Java and Spring Framework. 
 		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
+
+	function resume(){
+        return window.open("https://github.com/JavaDevShashwat/JavaDevShashwat.github.io/raw/main/Shashwat%20Srivastava%20Resume%20(1).pdf");
+    }
+    
+    let linkedin = document.getElementById("linkedin");
+    linkedin.onclick= function(){
+        window.open(
+              "https://www.linkedin.com/in/shashwat-srivastava-55b16187/", "_blank");
+    }
+    let github = document.getElementById("github");
+    github.onclick= function(){
+        window.open(
+              "https://github.com/JavaDevShashwat", "_blank");
+    }
   </script>
 	</body>
 </html>
