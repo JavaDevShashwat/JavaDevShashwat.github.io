@@ -264,6 +264,7 @@ nav a::after{
 
 .span_1_of_4 {
 	width: 23%;
+  margin-bottom: 3rem;
 }
 
 .hexagon{
@@ -355,7 +356,7 @@ nav a::after{
 /*PORTFOLIO*/
 .Skills{
   position: relative;
-  top: 12rem;
+  top: 10rem;
   height: 50rem;
   text-align: center;
   background: #dddddd;
