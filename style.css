@@ -141,9 +141,9 @@ nav a::after{
 
 .About{
   position: relative;
-  top: 0;
+  height: 50rem;
   text-align: center;
-  background: #fff;
+  background: #DDDDDD;
 }
 
 .navigate-about{
@@ -169,13 +169,14 @@ nav a::after{
 
 .row{
   position: relative;
-  top: 5rem;
+  top: 4rem;
   width: 80%;
   color: #686d76;
 }
 
 .col {
 	display: block;
+  text-align: center;
 	float:left;
 	margin: 1% 0 1% 1.6%;
 }
@@ -194,8 +195,9 @@ nav a::after{
 }
 
 .feature-detail{
+  text-align: center;
   margin-top: 1rem;
-  width: 90%;
+  width: 100%;
 }
 
 .span-1-of-2 {
@@ -232,7 +234,7 @@ nav a::after{
   padding: .6rem 1.8rem;
   margin-top: 2rem;
   background: transparent;
-  border: solid #04c2c9 1px;
+  border: solid #009ada 1px;
   text-decoration: none;
   display: inline-block;
   text-align: center;
@@ -251,7 +253,7 @@ nav a::after{
 
 .btn2>a{
   padding: 10px 5px;
-  color: #04c2c9;
+  color: #009ada;
 }
 
 .picture{
@@ -264,7 +266,12 @@ nav a::after{
 
 .span_1_of_4 {
 	width: 23%;
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.span_1_of_3{
+  width: 31%;
+  margin-bottom: 3.5rem;
 }
 
 .hexagon{
@@ -272,12 +279,17 @@ nav a::after{
   background-color: #04c2c9;
 }
 
+.feature-icon2 img{
+  padding: 1.5rem 2rem;
+  width: 50px;
+  background-color: #db508a;
+}
 .pic-hexagon{
   clip-path: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%);
 }
 
 /*Progress Bar animation*/
-.container{
+/* .container{
   position: relative;
   width: 600px;
 }
@@ -307,17 +319,22 @@ nav a::after{
 
 .container .skills .Name{
   position: relative;
-  width: 110px;
+  width: 40px;
+  height: 40px;
   text-align: center;
   font-size: 0.9rem;
   font-weight: bold;
   color: #fff;
   background: #04c2c9;
   margin: 0 -10px 0 0;
-  padding: 5px 0 0 0;
+  padding: 5px;
 
 }
-
+.container .skills .Name img{
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
 .container .skills .Value{
   position: relative;
   width: 40px;
@@ -330,7 +347,7 @@ nav a::after{
   position: relative;
   width: calc(100% - 150px);
   height: 25px;
-  margin:0 10px;
+  margin: .7rem 10px;
   padding: 3px 0 0 0;
   background: #eee;
   text-align: right;
@@ -344,26 +361,26 @@ nav a::after{
   width: 70%;
   height: 100%;
   background: #00a1a7;
-  animation: animate 4s ease-in-out forwards;
+  animation: animate 3s ease-in-out forwards;
 }
 
 @keyframes animate {
   from{
     width: 0;
   }
-}
+} */
 
 /*PORTFOLIO*/
 .Skills{
   position: relative;
-  top: 10rem;
-  height: 50rem;
+  top: 1rem;
+  height: 125rem;
   text-align: center;
-  background: #dddddd;
+  background: #FFFFFF;
 }
 
 .navigate-skill{
-  height: 5rem;
+  height: 4rem;
 }
 .portfolio-heading{
   position: relative;
@@ -373,4 +390,20 @@ nav a::after{
 }
 .portfolio-heading h1{
   font-weight: bold;
+}
+
+.Techstack {
+  position: relative;
+  top: 1rem;
+  height: 60rem;
+  text-align: center;
+  background: #DDDDDD;
+}
+
+.Projects{
+  position: relative;
+  top: 1rem;
+  height: 60rem;
+  text-align: center;
+  background: #FFFFFF;
 }
