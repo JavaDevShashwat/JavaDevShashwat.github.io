@@ -169,6 +169,7 @@ nav a::after{
 
 .row{
   position: relative;
+  text-align: center;
   top: 4rem;
   width: 80%;
   color: #686d76;
@@ -204,9 +205,8 @@ nav a::after{
   position: relative;
   top: 1rem;
   display: inline-block;
-	width: 49%;
+	width: 45%;
   text-align: center;
-  margin: auto;
 }
 
 .about-me{
@@ -288,88 +288,6 @@ nav a::after{
   clip-path: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%);
 }
 
-/*Progress Bar animation*/
-/* .container{
-  position: relative;
-  width: 600px;
-}
-
-.container h2{
-  color: #686d76;
-}
-
-.container .skills{
-  position: relative;
-  display: flex;
-  margin: 0;
-  padding: 0 10px 18px;
-  overflow: hidden;
-  transition: 0.5s;
-}
-
-.container .skills:before{
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 50%;
-  z-index: 10;
-}
-
-.container .skills .Name{
-  position: relative;
-  width: 40px;
-  height: 40px;
-  text-align: center;
-  font-size: 0.9rem;
-  font-weight: bold;
-  color: #fff;
-  background: #04c2c9;
-  margin: 0 -10px 0 0;
-  padding: 5px;
-
-}
-.container .skills .Name img{
-  width: 40px;
-  height: 40px;
-  text-align: center;
-}
-.container .skills .Value{
-  position: relative;
-  width: 40px;
-  text-align: left;
-  margin-top: -2px;
-  text-transform: uppercase;
-}
-
-.container .skills .percent{
-  position: relative;
-  width: calc(100% - 150px);
-  height: 25px;
-  margin: .7rem 10px;
-  padding: 3px 0 0 0;
-  background: #eee;
-  text-align: right;
-  overflow: hidden;
-}
-
-.container .skills .percent .progress{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 70%;
-  height: 100%;
-  background: #00a1a7;
-  animation: animate 3s ease-in-out forwards;
-}
-
-@keyframes animate {
-  from{
-    width: 0;
-  }
-} */
-
 /*PORTFOLIO*/
 .Skills{
   position: relative;
@@ -403,7 +321,78 @@ nav a::after{
 .Projects{
   position: relative;
   top: 1rem;
-  height: 60rem;
+  height: 135rem;
   text-align: center;
   background: #FFFFFF;
+}
+
+.project-image{
+  width: 90%;
+  margin: 10px;
+}
+
+.btn3{
+  position: relative;
+  border-radius: 4px;
+  color: #009ada;
+  font-size: 1.4rem;
+  padding: .6rem 1.8rem;
+  margin-bottom: 2rem;
+  background: transparent;
+  border: solid #009ada 1px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.btn3:hover {
+   background: #04c2c9;
+   color: #fff;
+   border-radius: 4px;
+   text-decoration: none;
+   cursor: pointer;
+}
+
+.btn3:hover>a{
+  color: #fff;
+}
+
+.btn3>a{
+  padding: 10px 5px;
+  color: #009ada;
+}
+h5{
+  width: 80%;
+  margin-top: 15px;
+}
+.box {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.Contact{
+  position: relative;
+  width: 100%;
+  top: 1rem;
+  height: 25rem;
+  text-align: center;
+  background: #1B242F;
+}
+
+.heading2 {
+  width: 15%;
+}
+
+.heading2 h1{
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.underline2{
+  position: relative;
+  top: 1rem;
+  width: 5%;
+  height: 5px;
+  background-color: #FFFFFF;
 }
