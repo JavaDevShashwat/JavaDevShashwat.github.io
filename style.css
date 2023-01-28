@@ -374,7 +374,7 @@ h5{
   position: relative;
   width: 100%;
   top: 1rem;
-  height: 25rem;
+  height: 35rem;
   text-align: center;
   background: #1B242F;
 }
@@ -398,4 +398,54 @@ h5{
 
 .pro:hover{
   transform: scale(1.5);
+}
+
+#container5 {
+  color: white;
+  padding-top: 50px;
+  width: 40%;
+  margin: auto;
+  text-align: center;
+}
+
+#contact {
+  margin-top: 45px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#contact>div:hover{
+  cursor: pointer;
+  color: rgb(64,112,244);
+}
+
+#contact>div{
+  color: white;
+  text-decoration: none;
+  text-decoration: none;
+}
+
+
+#name{
+  margin-top: 45px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.name h1{
+  color: #e31b6d;
+  margin-top: 1rem;
+}
+
+.phone{
+  color: #686d76;
+  font-weight: lighter;
+}
+
+.cont_icon{
+  margin: 5rem 0rem 2rem 0rem;
+}
+
+.row>h3{
+  margin: 1rem 0rem;
 }
