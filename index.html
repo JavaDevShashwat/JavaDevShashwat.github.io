@@ -60,10 +60,6 @@
 						<h2>Who's this guy?</h2>
 						<p>I'm Shashwat Srivastava, a Java Backend Developer from <span><a href="https://en.wikipedia.org/wiki/Varanasi" target="_blank">Varanasi</a></span>. <br>
 						I am an aspiring Backend Developer with specialization in Java and Spring Framework. Looking forward to applying and Enhancing my skills and knowledge as a developer.<br>
-						<!-- <div id="icons">
-                			<i id="linkedin" class="fa-brands fa-linkedin-in icons fa-2x"></i>
-                			<i id="github" class="fa-brands fa-github icons fa-2x"></i>
-            			</div> -->
 						<div id="contact-icons">
 							<i class="fa-solid fa-phone"></i><p>Contact on : 8076090538	</p>
 						</div>
@@ -455,10 +451,22 @@
 
 			</div>
 			<div class="row">
-				<div data-aos="fade-left" class="name">
-					<h2>Shashwat Srivastava</h2>
+				<div data-aos="fade-up" class="name">
+					<h1>Shashwat Srivastava</h1>
 				</div>
-				
+            	<h3 data-aos="fade-up">Drop a mail @ sswtsrv@gmail.com</h3>
+            	<h3 data-aos="fade-up">Contact on : 8076090538</h3>
+				<div class="cont_icon">
+                	<i data-aos="fade-right" id="linkedin1" class="fa-brands fa-linkedin-in icons fa-2x span_1_of_4 "></i>
+                	<i data-aos="fade-right" id="github1" class="fa-brands fa-github icons fa-2x span_1_of_4"></i>
+					<i data-aos="fade-left" id="medium" class="fa-regular fa-envelope icons fa-2x span_1_of_4"></i>
+					<a style="font-family: 'Raleway', sans-serif; text-decoration: none;" href="tel:+91-807-609-0538" class="phone">
+						<i data-aos="fade-left" id="medium" class="fa-solid fa-phone icons fa-2x span_1_of_4"></i>
+					</a>
+				</div>
+				<div style="position: relative; bottom: -3rem;">
+					<p>Hope you like my portfolio, made by @ Shashwat Srivastava</p>
+				</div>
 			</div>
 		</section>
 
@@ -477,14 +485,29 @@
     
     let linkedin = document.getElementById("linkedin");
     linkedin.onclick= function(){
-        window.open(
-              "https://www.linkedin.com/in/shashwat-srivastava-55b16187/", "_blank");
+        window.open("https://www.linkedin.com/in/shashwat-srivastava-55b16187/", "_blank");
     }
+
     let github = document.getElementById("github");
     github.onclick= function(){
-        window.open(
-              "https://github.com/JavaDevShashwat", "_blank");
+        window.open("https://github.com/JavaDevShashwat", "_blank");
     }
+
+	let linkedin1 = document.getElementById("linkedin1");
+    linkedin1.onclick= function(){
+        window.open("https://www.linkedin.com/in/shashwat-srivastava-55b16187/", "_blank");
+    }
+
+    let github1 = document.getElementById("github1");
+    github1.onclick= function(){
+        window.open("https://github.com/JavaDevShashwat", "_blank");
+    }
+
+    let medium = document.getElementById("medium");
+    medium.onclick= function(){
+        window.open("https://mail.google.com/mail/u/0/#inbox?compose=new", "_blank");
+    }
+
   </script>
 	</body>
 </html>
