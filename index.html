@@ -18,15 +18,20 @@
 				<div class="my-logo">
 					<a href="#C1"><img class="logo" src="images\LOGO.png" alt="LOGO"/></a>
 				</div>
-				<nav>
-					<a href="#C1">HOME</a>
-					<a href="#C2">ABOUT</a>
-					<a href="#C3">SKILLS</a>
-					<a href="#C4">TECHSTACK</a>
-					<a href="#C5">PROJECTS</a>
-					<a href="#C6">CONTACT</a>
-					<a onclick="resume()" href = "https://drive.google.com/file/d/1bmcxH417Z5lpkNzZAHkAFuqq04cJK_kz/view?usp=sharing" download target="_blank">RESUME</a>
+				<nav class="nav_Menu">
+					<a class = "nav-item" href="#C1">HOME</a>
+					<a class = "nav-item" href="#C2">ABOUT</a>
+					<a class = "nav-item" href="#C3">SKILLS</a>
+					<a class = "nav-item" href="#C4">TECHSTACK</a>
+					<a class = "nav-item" href="#C5">PROJECTS</a>
+					<a class = "nav-item" href="#C6">CONTACT</a>
+					<a class = "nav-item" onclick="resume()" href = "https://drive.google.com/file/d/1bmcxH417Z5lpkNzZAHkAFuqq04cJK_kz/view?usp=sharing" download target="_blank">RESUME</a>
 				</nav>
+				<div class="hamburger">
+            		<span class="bar"></span>
+            		<span class="bar"></span>
+            		<span class="bar"></span>
+        		</div>
 			</section>
 		</div>
 		<div class="home-page" id="C1">
@@ -54,17 +59,17 @@
 			<div data-aos="fade-right" class="underline">
 
 			</div>
-			<div class="row">
-				<div data-aos="fade-right" class="span-1-of-2 about-me">
+			<div class="row span-1-of-2">
+				<div data-aos="fade-right" class=" about-me">
 					<div class="feature-detail">
 						<h2>Who's this guy?</h2>
-						<p>I'm Shashwat Srivastava, a Java Backend Developer from <span><a href="https://en.wikipedia.org/wiki/Varanasi" target="_blank">Varanasi</a></span>. <br>
+						<p>I'm Shashwat Srivastava, a Java Backend Developer from <span><a href="https://en.wikipedia.org/wiki/Varanasi" target="_blank">Varanasi</a></span>.
 						I am an aspiring Backend Developer with specialization in Java and Spring Framework and RestAPI. Looking forward to applying and Enhancing my skills and knowledge as a developer.<br>
 						<div id="contact-icons">
-							<i class="fa-solid fa-phone"></i><p>Contact on : 8076090538	</p>
+							<!-- <i class="fa-solid fa-phone"></i>--><p>Contact on : 8076090538	</p>
 						</div>
 						<div id="contact-icons">
-							<i class="fa-solid fa-envelope"></i><p>Drop a mail on : sswtsrv@gmail.com</p>
+							<!-- <i class="fa-solid fa-envelope"></i>--><p>Drop a mail on : sswtsrv@gmail.com</p>
 						</div>
 
 						<button id="resume" class = "btn2" type="button" name="button"><a onclick="resume()" href = "https://drive.google.com/file/d/1bmcxH417Z5lpkNzZAHkAFuqq04cJK_kz/view?usp=sharing"  download target="_blank">Resume</a></button>
@@ -73,7 +78,7 @@
 					</div>
 				</div>
 
-				<div data-aos="fade-left" class="span-1-of-2">
+				<div data-aos="fade-left" class="">
 					<img class="picture" style="border-radius: 50%;" src="images\profilepic.png" alt="fast">
 				</div>
 			</div>
@@ -212,7 +217,7 @@
 				</div>
 			</div>
 			<div class="row" >
-				<div data-aos="fade-left" class="heading" style="margin-top: 2rem; width: 40%;">
+				<div data-aos="fade-left" class="heading" style="margin-top: 2rem; width: 45%;">
 					<h1>My Git Contribution</h1>
 				</div>
 				<div data-aos="fade-right" class="underline" style="margin-bottom: 4rem; width: 10%;">
@@ -389,8 +394,8 @@
 			<div data-aos="fade-right" class="underline">
 
 			</div>
-			<div class="row">
-				<div data-aos="fade-right" class="col span-1-of-2 box">
+			<div class="row span-1-of-2">
+				<div data-aos="fade-right" class="col box">
 					<img class="project-image" src="images/Anthopology.png">
                 	<h3>Anthropolgie</h3>
                 	<h5>Anthropolgie is an E-commerce website in this website we can purchase various products like Beauty Products , Dresses , Women Clothes, Furniture and more.</h5><br>
@@ -399,7 +404,7 @@
 					<a href="https://github.com/JavaDevShashwat/Anthropologie_project" target="_blank"><button  class="btn3">CODE <i class="fa-brands fa-github"></i></button></a>
               		<a href="https://fascinating-cactus-6f383e.netlify.app/" target="_blank"><button  class="btn3">LIVE <i class="fa-solid fa-arrow-up-right-from-square"></i></button></a>
 				</div>
-				<div data-aos="fade-left" class="col span-1-of-2 box">
+				<div data-aos="fade-left" class="col box">
 					<img class="project-image" src="images/ASOS.png">
                 	<h3>ASOS</h3>
                 	<h5>Anthropolgie is an E-commerce website in this website we can purchase various products like Beauty Products , Dresses , Women Clothes, Furniture and more.</h5><br>
@@ -408,7 +413,7 @@
                		<a href="https://github.com/JavaDevShashwat/ASOS_Project" target="_blank"><button  class="btn3">CODE <i class="fa-brands fa-github"></i></button></a>
               		<a href="https://clever-starlight-57ee89.netlify.app/" target="_blank"><button  class="btn3">LIVE <i class="fa-solid fa-arrow-up-right-from-square"></i></button></a>
 				</div>
-				<div data-aos="fade-right" class="col span-1-of-2 box">
+				<div data-aos="fade-right" class="col box">
 					<img class="project-image" src="images/AAMS.png">
                 	<h3>Automated Auction Management System</h3>
                 	<h5>Automated Auction System is an Application Software that is used for the buying and selling of products. This software can be used by the auction companies who arrange the Auction.</h5><br>
@@ -417,7 +422,7 @@
 					<a href="https://github.com/JavaDevShashwat/Online-Auction-Management-System" target="_blank"><button  class="btn3">CODE <i class="fa-brands fa-github"></i></button></a>
               		<a href="https://drive.google.com/file/d/10eut7he5orsO_AHNanGiLB6m_FsBXXjB/view?usp=sharing" target="_blank"><button  class="btn3">VIDEO <i class="fa-solid fa-arrow-up-right-from-square"></i></button></a>
 				</div>
-				<div data-aos="fade-left" class="col span-1-of-2 box">
+				<div data-aos="fade-left" class="col box">
 					<img class="project-image" src="images/Trip Management System.png">
                 	<h3>Trip Management System</h3>
                 	<h5>Anthropolgie is an E-commerce website in this website we can purchase various products like Beauty Products , Dresses , Women Clothes, Furniture and more.</h5><br>
@@ -426,7 +431,7 @@
                		<a href="https://github.com/JavaDevShashwat/Online-Trip-Management-System" target="_blank"><button  class="btn3">CODE <i class="fa-brands fa-github"></i></button></a>
               		<a href="https://drive.google.com/file/d/1x100uLEDaUAqTRXMuRIxK351l8TrsNLL/view?usp=sharing" target="_blank"><button  class="btn3">VIDEO <i class="fa-solid fa-arrow-up-right-from-square"></i></button></a>
 				</div>
-				<div data-aos="fade-right" class="col span-1-of-2 box">
+				<div data-aos="fade-right" class="col box">
 					<img class="project-image" src="images/Portfolio.png">
                 	<h3>My Portfolio</h3>
                 	<h5>My portfolio showcases some of my abilities. I have implemented some external libraries of Javascript and CSS to make more vibrant.</h5><br>
@@ -510,6 +515,19 @@
     medium.onclick= function(){
         window.open("https://mail.google.com/mail/u/0/#inbox?compose=new", "_blank");
     }
+
+	const hamburger = document.querySelector(".hamburger");
+    const navMenu = document.querySelector(".nav_Menu");
+
+    hamburger.addEventListener("click", ()=>{
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+    })
+
+    document.querySelectorAll(".nav-item").forEach(n => n.addEventListener("click", () => {
+        hamburger.classList.remove("active");
+        navMenu.classList.remove("active");
+    }))
 
   </script>
 	</body>
