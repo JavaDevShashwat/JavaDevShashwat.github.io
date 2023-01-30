@@ -137,6 +137,23 @@ nav a:hover{
   transition: color .5s;
 }
 
+.hamburger{
+  display: none;
+  cursor: pointer;
+}
+        
+.bar{
+  display: block;
+  width: 30px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+
+
+
 /*.......................About.........................*/
 
 .About{
@@ -202,11 +219,12 @@ nav a:hover{
 }
 
 .span-1-of-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: space-between;
   position: relative;
-  top: 1rem;
-  display: inline-block;
-	width: 45%;
-  text-align: center;
+  top: 4rem;
 }
 
 .about-me{
@@ -456,4 +474,188 @@ h5{
   margin-top: 2rem;
   width: 3%;
   background-color: #2f323a;
+}
+
+/* ------------------------------Responsive for Tablet-------------------------------- */
+
+@media screen and (max-width:992px) {
+
+.navbar{
+  position: relative;
+  width: 80%;
+  height: 3rem;
+  background-color:#1b242f;
+  border-bottom: solid 4px #04c2c9;
+}
+
+nav a::after{
+  content: normal;
+}
+
+.my-logo, nav{
+  display: inline-block;
+}
+
+.my-logo img{
+  width: 3rem;
+  height: 3rem;
+  opacity: 0.8;
+}
+
+.my-logo img:hover{
+  opacity: 1;
+  transform: scale(1.15);
+  transition: transform 0.4s, opacity 0.5s;
+
+}
+
+.nav-container{
+  position: relative;
+  width: 80%;
+}
+
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transform: translate(0,-3rem);
+}
+
+.inView{
+  transform: translate(0,0);
+  transition: all .8s ease;
+  z-index: 1;
+}
+
+nav{
+  position: absolute;
+  right: 0;
+  top: .9rem;
+}
+
+nav a{
+  margin-left: 1.2rem;
+  font-size: 1rem;
+  font-weight:normal;
+  text-decoration: none;
+  color: #fff;
+}
+
+nav a:hover{
+  color:#e31b6d;
+  transition: color .5s;
+}
+
+  .hamburger{
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 10px;
+  }
+  
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+            
+  .hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+  }
+            
+  .hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav_Menu{
+    /* display: none; */
+    position: fixed;
+    left: -50rem;
+    top: -50rem;
+    gap: 0;
+    flex-direction: row;
+    width: auto;
+    text-align: center;
+    transition: 0.3s;
+    text-align: left;
+    padding-left: 20px;
+  }
+
+  .nav_Menu>a{
+    margin: 16px 0;
+    display: block;
+  }
+            
+  .nav_Menu>a{
+    margin: 50px 0;
+    display: block;
+    text-align: center;
+  }
+            
+  .nav_Menu.active{
+    left: 0;
+    top: 0;
+    background-color: #1B242F;
+  }
+
+  /* ------------------ABOUT-------------------------- */
+.navigate-about{
+  height: 4rem;
+}
+
+.heading {
+  width: 45%;
+}
+
+h1{
+  position: relative;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.heading h1{
+  color: #444649;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.underline{
+  position: relative;
+  top: 1rem;
+  width: 8%;
+  height: 4px;
+  background-color: #444649;
+}
+
+.row{
+  position: relative;
+  text-align: center;
+  top: 2rem;
+  width: 80%;
+  color: #686d76;
+}
+
+h2{
+  font-size: 1.3rem;
+}
+
+p{
+  font-size: .9rem;
+}
+
+.btn2>a{
+  font-size: 1rem;
+}
+
+.btn2{
+  padding: .4rem 1rem;
+  margin-top: 2rem;
+}
+
+.picture{
+  width: 300px;
+  height: 300px;
+}
+
+.About{
+  height: 45rem;
+}
 }
