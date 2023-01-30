@@ -201,7 +201,7 @@ nav a:hover{
 
 .col p{
   line-height: 1.5;
-  font-size: 1rem;
+  font-size: .9rem;
   font-weight: 400;
 }
 
@@ -628,13 +628,13 @@ h1{
 .row{
   position: relative;
   text-align: center;
-  top: 2rem;
+  top: 4rem;
   width: 80%;
   color: #686d76;
 }
 
 h2{
-  font-size: 1.3rem;
+  font-size: medium;
 }
 
 p{
@@ -658,4 +658,62 @@ p{
 .About{
   height: 45rem;
 }
+
+.btn3>a{
+  font-size: 1rem;
+}
+
+.btn3{
+  font-size: medium;
+  padding: .4rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+h5{
+  width: 90%;
+  margin-top: 10px;
+}
+h3{
+  font-size: medium;
+}
+
+.Projects{
+  height: 115rem;
+  text-align: center;
+  background: #FFFFFF;
+}
+
+.heading2{
+  width: 20%;
+}
+
+.heading2 h1{
+  color: #FFFFFF;
+  font-weight: lighter;
+}
+
+.underline2{
+  position: relative;
+  top: 1rem;
+  width: 10%;
+  height: 4px;
+  background-color: #FFFFFF;
+}
+
+.above{
+  border-radius: 20%;
+  margin-top: 2rem;
+  width: 5%;
+}
+
+.Techstack {
+  height: 56rem;
+}
+
+.Skills{
+  height: 130rem;
+}
+
+
 }
