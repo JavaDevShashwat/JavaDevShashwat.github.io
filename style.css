@@ -714,6 +714,103 @@ h3{
 .Skills{
   height: 130rem;
 }
+}
+
+@media screen and (max-width:640px) {
+
+.home-page{
+  text-align: center;
+  width: 100%;
+  height: 1140px;
+  background-color: #252934;
+  color: #fff;
+}
+
+.picture{
+  width: 100%;
+  height: 100%;
+}
+
+.About{
+  height: 58rem;
+}
+
+.about-me{
+  width: 100%;
+  position: absolute;
+  top: 18rem;
+}
+
+.picture-div{
+  position: relative;
+  text-align: center;
+  top: 0;
+}
+
+.picture{
+  width: 50%;
+}
+
+.Skills{
+  height: 155rem;
+}
+
+.span_1_of_4{
+  width: 31.4%;
+  margin-bottom: 1.5rem;
+}
+
+.feature-detail p{
+  font-size: .8rem;
+}
+
+.Techstack {
+  height: 67rem;
+}
+
+.Projects{
+  height: 195rem;
+  text-align: center;
+  background: #FFFFFF;
+}
+
+.span-1-of-2{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  top: 4rem;
+}
+
+.heading2{
+  width: 30%;
+}
+.new{
+  width: 23%;
+  margin-bottom: 1.5rem;
+}
+
+.above{
+  border-radius: 20%;
+  padding: 2%;
+  margin-top: 1rem;
+  width: 5%;
+}
+
+#gitStats{
+  display: block;
+  margin: 20px 50px;
+}
+            
+#gitStats>div>img{
+  width: 80%;
+}
+            
+.calendar svg{
+  width: 95%;
+}
+
 
 
 }
