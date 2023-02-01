@@ -602,7 +602,7 @@ nav a:hover{
 }
 
 .heading {
-  width: 45%;
+  width: 100%;
 }
 
 h1{
@@ -641,13 +641,8 @@ p{
   font-size: .9rem;
 }
 
-.btn2>a{
-  font-size: 1rem;
-}
-
-.btn2{
-  padding: .4rem 1rem;
-  margin-top: 2rem;
+.navigate-about{
+  height: 4rem;
 }
 
 .picture{
@@ -811,6 +806,247 @@ h3{
   width: 95%;
 }
 
+}
+
+@media screen and (max-width:400px) {
+
+.home-page{
+  text-align: center;
+  width: 100%;
+  height: 42rem;
+  background-color: #252934;
+  color: #fff;
+}
+.home-page-container h1{
+  font-size: x-large;
+}
+.home-page-container span{
+  font-size: x-large;
+}
+
+.navbar{
+  position: relative;
+  width: 100%;
+  height: 2.5rem;
+  background-color:#1b242f;
+  border-bottom: solid 4px #04c2c9;
+}
+
+.nav_Menu{
+    /* display: none; */
+    width: 400px;
+    position: fixed;
+    left: -50rem;
+    top: -50rem;
+    gap: 0;
+    flex-direction: row;
+    width: auto;
+    text-align: center;
+    transition: 0.3s;
+    text-align: left;
+    padding-left: 20px;
+  }
+
+nav a::after{
+  content: normal;
+}
+
+.my-logo, nav{
+  display: inline-block;
+}
+
+.my-logo img{
+  width: 2.5rem;
+  height: 2.5rem;
+  opacity: 0.8;
+}
+
+.my-logo img:hover{
+  opacity: 1;
+  transform: scale(1.15);
+  transition: transform 0.4s, opacity 0.5s;
+
+}
+
+.nav-container{
+  position: relative;
+  width: 80%;
+}
+
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transform: translate(0,-3rem);
+}
+
+.inView{
+  transform: translate(0,0);
+  transition: all .8s ease;
+  z-index: 1;
+}
+
+.hamburger{
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 6px;
+}
+
+nav{
+  position: absolute;
+  right: 0;
+  top: .9rem;
+}
+
+nav a{
+  margin-left: 1.2rem;
+  font-size: 1rem;
+  font-weight:normal;
+  text-decoration: none;
+  color: #fff;
+}
+
+nav a:hover{
+  color:#e31b6d;
+  transition: color .5s;
+}
+
+.underline{
+  position: relative;
+  top: 1rem;
+  width: 15%;
+  height: 4px;
+  background-color: #444649;
+}
+
+#icons{
+  width: 40%;
+}
+
+.navigate-about{
+  height: 4rem;
+}
+
+.picture{
+  width: 100%;
+  height: 100%;
+}
+
+.About{
+  height: 50rem;
+}
+
+.about-me{
+  width: 100%;
+  position: absolute;
+  top: 10rem;
+}
+
+.picture-div{
+  position: relative;
+  text-align: center;
+  top: -1rem;
+}
+
+.picture{
+  width: 50%;
+}
+
+.btn2{
+  font-size: 1rem;
+  padding: .4rem 1rem;
+}
+
+.Skills{
+  height: 155rem;
+}
+
+.span_1_of_4{
+  width: 48%;
+  margin-bottom: 1.5rem;
+}
+
+.feature-detail p{
+  font-size: .7rem;
+}
+
+.heading h1{
+  color: #444649;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+p img{
+  width: 90%;
+}
+.Techstack {
+  height: 86rem;
+}
+
+.Projects{
+  height: 178rem;
+  text-align: center;
+  background: #FFFFFF;
+}
+
+.span-1-of-2{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  top: 4rem;
+}
+
+.heading2{
+  width: 30%;
+}
+.new{
+  width: 23%;
+  margin-bottom: 1.5rem;
+}
+
+.above{
+  border-radius: 20%;
+  padding: 2%;
+  margin-top: 1rem;
+  width: 10%;
+}
+
+#gitStats{
+  display: block;
+  margin: 20px 50px;
+}
+            
+#gitStats>div>img{
+  width: 80%;
+}
+            
+.calendar svg{
+  width: 100%;
+}
+
+.heading2 h1{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.name h1{
+  font-size: 1.5rem;
+  margin-top: -1rem;
+}
+
+.cont_icon{
+  width: 100%;
+  margin: 5rem auto 1rem auto;
+}
+.last{
+  font-size: .8rem;
+}
+
+.Contact{
+  height: 30rem;
+}
 
 
 }
