@@ -482,7 +482,7 @@ h5{
 
 .navbar{
   position: relative;
-  width: 80%;
+  width: 100%;
   height: 3rem;
   background-color:#1b242f;
   border-bottom: solid 4px #04c2c9;
@@ -565,19 +565,18 @@ nav a:hover{
     transform: translateY(-8px) rotate(-45deg);
   }
 
-  .nav_Menu{
+.nav_Menu{
     /* display: none; */
+    width: 100%;
     position: fixed;
     left: -50rem;
     top: -50rem;
     gap: 0;
-    flex-direction: row;
-    width: auto;
     text-align: center;
     transition: 0.3s;
     text-align: left;
     padding-left: 20px;
-  }
+}
 
   .nav_Menu>a{
     margin: 16px 0;
@@ -595,6 +594,12 @@ nav a:hover{
     top: 0;
     background-color: #1B242F;
   }
+
+  .home-page-container{
+  position: absolute;
+  width: 100%;
+  top: 25%;
+}
 
   /* ------------------ABOUT-------------------------- */
 .navigate-about{
@@ -673,6 +678,14 @@ h3{
   font-size: medium;
 }
 
+.span_1_of_4{
+  width: 31.4%;
+  margin-bottom: 1.5rem;
+}
+.calendar svg{
+  width: 100%;
+}
+
 .Projects{
   height: 115rem;
   text-align: center;
@@ -703,11 +716,11 @@ h3{
 }
 
 .Techstack {
-  height: 56rem;
+  height: 65rem;
 }
 
 .Skills{
-  height: 130rem;
+  height: 153rem;
 }
 }
 
@@ -831,21 +844,6 @@ h3{
   background-color:#1b242f;
   border-bottom: solid 4px #04c2c9;
 }
-
-.nav_Menu{
-    /* display: none; */
-    width: 400px;
-    position: fixed;
-    left: -50rem;
-    top: -50rem;
-    gap: 0;
-    flex-direction: row;
-    width: auto;
-    text-align: center;
-    transition: 0.3s;
-    text-align: left;
-    padding-left: 20px;
-  }
 
 nav a::after{
   content: normal;
